@@ -10,6 +10,7 @@
 ! GitHub pull requests: https://github.com/iTzBoboCz/adblocklist/pulls
 
 ! Youtube sign-in popup
+! source: https://www.reddit.com/r/uBlockOrigin/comments/iv17he/blocking_youtube_signin_prompts/g5oiokk?utm_source=share&utm_medium=web2x&context=3
 youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
 youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
 
