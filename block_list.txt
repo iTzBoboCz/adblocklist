@@ -1,6 +1,6 @@
 ! Title: Annoyance Blocklist
-! Version: 1
-! Last modified: 04 Dec 2020 18:55 UTC
+! Version: 1.1
+! Last modified: 22 Jan 2021 19:50 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/iTzBoboCz/adblocklist/
 ! Licence: https://github.com/iTzBoboCz/adblocklist/blob/master/LICENSE
@@ -10,10 +10,8 @@
 ! GitHub pull requests: https://github.com/iTzBoboCz/adblocklist/pulls
 
 ! Youtube sign-in popup
-! source: https://www.ghacks.net/2020/09/27/how-to-deal-with-googles-and-youtubes-aggressive-popups-before-you-continue-sign-in/
-youtube.com##ytd-popup-container
-youtube.com##ytd-consent-bump-lightbox.style-scope
-www.youtube.com##.opened
+youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
+youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
 
 ! WP Plugin Copy Protection
 ! example: rozbor-dila.cz
