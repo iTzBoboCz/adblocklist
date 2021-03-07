@@ -1,6 +1,6 @@
 ! Title: Annoyance Blocklist
 ! Version: 1.1
-! Last modified: 22 Jan 2021 19:50 UTC
+! Last modified: 7 Mar 2021 15:52 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/iTzBoboCz/adblocklist/
 ! Licence: https://github.com/iTzBoboCz/adblocklist/blob/master/LICENSE
@@ -17,3 +17,10 @@ youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.co
 ! WP Plugin Copy Protection
 ! example: rozbor-dila.cz
 */wp-content/plugins/wp-content-copy-protection/*
+
+! vascak.cz adblock popup
+vascak.cz##img[src="https://www.vascak.cz/data/img/adblock.png"]
+
+! pravopisne.cz empty div
+www.pravopisne.cz##.hezkycesky-top.full.mt-0.hezkycesky
+
