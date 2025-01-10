@@ -23,3 +23,6 @@ vascak.cz##img[src="https://www.vascak.cz/data/img/adblock.png"]
 
 ! pravopisne.cz empty div
 www.pravopisne.cz##.hezkycesky
+
+! Zdopravy ads
+zdopravy.cz##.otherAds
